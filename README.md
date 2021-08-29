@@ -168,7 +168,7 @@ And afterwards filter for those studs that have no favQuote so far (now it's a g
   - Create some folder for storing little code snippets (if you not have that already)
   - Create a sub folder "mongo-connect-test"
   - Create an index.js file in there
-  - Install mongoose with npm
+  - Install latest mongoose stable version `npm i mongoose@5`
   - Go to the ATLAS webpage & login
   - In your cluster click Tab "Connect..."
   - Grab the connection string specific for apps
