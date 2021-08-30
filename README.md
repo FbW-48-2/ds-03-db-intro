@@ -1,6 +1,6 @@
 # Databases - Exercise 1 - DB Intro
 
-We wanna start our databaase journey with an online cloud database. That is the easiest way to start.
+We wanna start our database journey with an online cloud database. That is the easiest way to start.
 
 We will work with the offical MongoDB cloud database (ATLAS) and will connect to it using a DB UI tool (= Compass).
 
@@ -148,7 +148,7 @@ Search for a student by the field "lastname", using the input field "Filter" loc
 
 Put an object {} inside that input field, with the key to search for (lastname) and a concrete value. The filter does not need to be JSON, you can omit double quotes around the keys. 
 
-Once your the end hit ENTER or the button "Find" on the right to execute the filter. If the button is greyed out, you have some syntax error in your filter object (forgot quotes? no comma between key & value? missing a curly brace?)
+Once you're done, hit ENTER or the button "Find" on the right to execute the filter. If the button is greyed out, you have some syntax error in your filter object (forgot quotes? no comma between key & value? missing a curly brace?)
 
 Once done: Clear the filter again to see all documents. Use the button "Reset" right to the Filter input field.
 
@@ -158,7 +158,7 @@ A big milestone in the journey.
 
 ## Bonus - More Filtering :)
 
-Now let's filter for students that have some favQuote set. Use the $exists filter operator for that).
+Now let's filter for students that have some favQuote set. Use the $exists filter operator for that. Google it, in case we did not cover it :)
 
 And afterwards filter for those studs that have no favQuote so far (now it's a good time to update them :))
 
@@ -189,8 +189,10 @@ And afterwards filter for those studs that have no favQuote so far (now it's a g
 
 ## Bonus: Install MongoDB locally
 
-See the MongoDB guide on installation instructions
-(section "MongoDB local installation")
+See the MongoDB guide on installation instructions:
+
+[https://github.com/losrobbos/databases-getting-started/blob/main/MONGODB_GUIDE.md#mongodb-local-installation](https://github.com/losrobbos/databases-getting-started/blob/main/MONGODB_GUIDE.md#mongodb-local-installation)
+
 
 Afterwards: Try to connect to your local MongoDB from Mongoose with this connection string:
 
