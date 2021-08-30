@@ -6,4 +6,4 @@ mongoose.connect(MONGO_URI, {
     useUnifiedTopology : true
 })
 .then(() => console.log("connection successfull"))
-.catch((error) => console.log('connection mistake', error))
+.catch((err) => console.log('connection mistake', err))
