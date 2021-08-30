@@ -1,0 +1,25 @@
+{
+  "name": "ds-03-db-intro",
+  "version": "1.0.0",
+  "description": "We wanna start our database journey with an online cloud database. That is the easiest way to start.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marialouisee/ds-03-db-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/marialouisee/ds-03-db-intro/issues"
+  },
+  "homepage": "https://github.com/marialouisee/ds-03-db-intro#readme",
+  "dependencies": {
+    "mongoose": "^6.0.2"
+  }
+}
