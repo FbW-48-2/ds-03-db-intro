@@ -224,7 +224,7 @@ If it says "could not find mongod" => mongodb is not installed on your system. S
 
 If it is installed, maybe you got installed an outdated version.
 
-Is the version below 4?
+Is the version below 3.6?
 
 If so: Remove your existing MongoDB installation:
 
